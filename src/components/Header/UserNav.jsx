@@ -10,7 +10,7 @@ function UserNav() {
         </Button>
         <User
           name="John Doe"
-          description="Premium+"
+          description="Basic"
           avatarProps={{
             src: "https://i.pravatar.cc/150",
             radius: "lg",

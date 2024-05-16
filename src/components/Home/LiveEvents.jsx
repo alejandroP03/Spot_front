@@ -6,11 +6,8 @@ function LiveEvents() {
       <h1 className="ms-4 pt-6 pb-4 text-4xl font-bold text-left">
         Eventos en vivo
       </h1>
-      <div className="max-w-full gap-2 grid grid-cols-12 grid-rows-1 px-8 pb-3">
-        <Card
-          isFooterBlurred
-          className="w-full h-[300px] col-span-12 sm:col-span-5"
-        >
+      <div className="gap-2 flex pb-3 px-5">
+        <Card isFooterBlurred className="flex-1 h-[300px]">
           <CardHeader className="absolute z-10 top-1 left-3 flex-col items-start">
             <p className="text-tiny text-red-600 uppercase font-bold">
               En vivo
@@ -40,10 +37,7 @@ function LiveEvents() {
             </a>
           </CardFooter>
         </Card>
-        <Card
-          isFooterBlurred
-          className="w-full h-[300px] col-span-12 sm:col-span-6"
-        >
+        <Card isFooterBlurred className="flex-1 h-[300px]">
           <CardHeader className="absolute z-10 top-1 flex-col items-start">
             <p className="text-tiny text-red-600 uppercase font-bold">
               En vivo
@@ -79,8 +73,8 @@ function LiveEvents() {
       <h3 className="ms-4 pt-6 pb-4 text-3xl font-bold text-left">
         Categorias
       </h3>
-      <div className=" gap-2 grid grid-cols-12 grid-rows-1 px-8">
-        <Card className="col-span-12 sm:col-span-3 h-[300px]" isPressable>
+      <div className=" gap-2 flex px-8">
+        <Card className=" flex-1 h-[300px]" isPressable>
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
               Baloncesto
@@ -94,7 +88,7 @@ function LiveEvents() {
             src="https://yt3.googleusercontent.com/j3EX1ndUELqEgLujUuWXj-JQ8YTknNVZAuHJakkLthvlF2duCsoUcHyvrD6hPJqr1WVuveTuvSg=s900-c-k-c0x00ffffff-no-rj"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-3 h-[300px]" isPressable>
+        <Card className=" flex-1 h-[300px]" isPressable>
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
               Fútbol
@@ -110,7 +104,7 @@ function LiveEvents() {
             src="https://brandemia.org/contenido/subidas/2021/05/portada3-uefa-imagenes-brandemia-web.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-3 h-[300px]" isPressable>
+        <Card className="flex-1 h-[300px]" isPressable>
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-black/60 uppercase font-bold">Motor</p>
             <h4 className="text-black font-bold text-large">MotoGP</h4>
@@ -122,7 +116,7 @@ function LiveEvents() {
             src="https://cdn.worldvectorlogo.com/logos/moto-gp.svg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-3 h-[300px]" isPressable>
+        <Card className="flex-1 h-[300px]" isPressable>
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">Lucha</p>
             <h4 className="text-white font-bold text-large">WWE</h4>

@@ -20,7 +20,7 @@ function App() {
     <>
       <main className="min-h-screen flex p-4 gap-2">
         <Sidebar />
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col flex-1">
           <Header />
           <RouterProvider router={router} />
         </div>
